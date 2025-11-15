@@ -11,6 +11,7 @@ public class BT10 {
 			n = sc.nextInt();
 			if(n%4==0) {
 				found=1;
+				Sum+=n;
 				break;
 			}
 			Sum+=n;
@@ -20,3 +21,4 @@ public class BT10 {
 	}
 
 }
+
